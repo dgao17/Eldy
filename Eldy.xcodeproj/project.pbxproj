@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CE0DF21236E3908007ED103 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0DF20236E3908007ED103 /* AppDelegate.swift */; };
+		8CE0DF23236E3908007ED103 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0DF22236E3908007ED103 /* SceneDelegate.swift */; };
+		8CE0DF25236E3908007ED103 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0DF24236E3908007ED103 /* ViewController.swift */; };
+		8CE0DF28236E3908007ED103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE0DF26236E3908007ED103 /* Main.storyboard */; };
+		8CE0DF2A236E390C007ED103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE0DF29236E390C007ED103 /* Assets.xcassets */; };
+		8CE0DF2D236E390C007ED103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE0DF2B236E390C007ED103 /* LaunchScreen.storyboard */; };
+		8CE0DF38236E390C007ED103 /* EldyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0DF37236E390C007ED103 /* EldyTests.swift */; };
+		8CE0DF43236E390C007ED103 /* EldyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0DF42236E390C007ED103 /* EldyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CE0DF34236E390C007ED103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CE0DF15236E3908007ED103 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE0DF1C236E3908007ED103;
+			remoteInfo = Eldy;
+		};
+		8CE0DF3F236E390C007ED103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CE0DF15236E3908007ED103 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE0DF1C236E3908007ED103;
+			remoteInfo = Eldy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CE0DF1D236E3908007ED103 /* Eldy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eldy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE0DF20236E3908007ED103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CE0DF22236E3908007ED103 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CE0DF24236E3908007ED103 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CE0DF27236E3908007ED103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CE0DF29236E390C007ED103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CE0DF2C236E390C007ED103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CE0DF2E236E390C007ED103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE0DF33236E390C007ED103 /* EldyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EldyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE0DF37236E390C007ED103 /* EldyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EldyTests.swift; sourceTree = "<group>"; };
+		8CE0DF39236E390C007ED103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE0DF3E236E390C007ED103 /* EldyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EldyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE0DF42236E390C007ED103 /* EldyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EldyUITests.swift; sourceTree = "<group>"; };
+		8CE0DF44236E390C007ED103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CE0DF1A236E3908007ED103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE0DF30236E390C007ED103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE0DF3B236E390C007ED103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CE0DF14236E3908007ED103 = {
+			isa = PBXGroup;
+			children = (
+				8CE0DF1F236E3908007ED103 /* Eldy */,
+				8CE0DF36236E390C007ED103 /* EldyTests */,
+				8CE0DF41236E390C007ED103 /* EldyUITests */,
+				8CE0DF1E236E3908007ED103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE0DF1E236E3908007ED103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CE0DF1D236E3908007ED103 /* Eldy.app */,
+				8CE0DF33236E390C007ED103 /* EldyTests.xctest */,
+				8CE0DF3E236E390C007ED103 /* EldyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CE0DF1F236E3908007ED103 /* Eldy */ = {
+			isa = PBXGroup;
+			children = (
+				8CE0DF20236E3908007ED103 /* AppDelegate.swift */,
+				8CE0DF22236E3908007ED103 /* SceneDelegate.swift */,
+				8CE0DF24236E3908007ED103 /* ViewController.swift */,
+				8CE0DF26236E3908007ED103 /* Main.storyboard */,
+				8CE0DF29236E390C007ED103 /* Assets.xcassets */,
+				8CE0DF2B236E390C007ED103 /* LaunchScreen.storyboard */,
+				8CE0DF2E236E390C007ED103 /* Info.plist */,
+			);
+			path = Eldy;
+			sourceTree = "<group>";
+		};
+		8CE0DF36236E390C007ED103 /* EldyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CE0DF37236E390C007ED103 /* EldyTests.swift */,
+				8CE0DF39236E390C007ED103 /* Info.plist */,
+			);
+			path = EldyTests;
+			sourceTree = "<group>";
+		};
+		8CE0DF41236E390C007ED103 /* EldyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CE0DF42236E390C007ED103 /* EldyUITests.swift */,
+				8CE0DF44236E390C007ED103 /* Info.plist */,
+			);
+			path = EldyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE0DF1C236E3908007ED103 /* Eldy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE0DF47236E390C007ED103 /* Build configuration list for PBXNativeTarget "Eldy" */;
+			buildPhases = (
+				8CE0DF19236E3908007ED103 /* Sources */,
+				8CE0DF1A236E3908007ED103 /* Frameworks */,
+				8CE0DF1B236E3908007ED103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eldy;
+			productName = Eldy;
+			productReference = 8CE0DF1D236E3908007ED103 /* Eldy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CE0DF32236E390C007ED103 /* EldyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE0DF4A236E390C007ED103 /* Build configuration list for PBXNativeTarget "EldyTests" */;
+			buildPhases = (
+				8CE0DF2F236E390C007ED103 /* Sources */,
+				8CE0DF30236E390C007ED103 /* Frameworks */,
+				8CE0DF31236E390C007ED103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CE0DF35236E390C007ED103 /* PBXTargetDependency */,
+			);
+			name = EldyTests;
+			productName = EldyTests;
+			productReference = 8CE0DF33236E390C007ED103 /* EldyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CE0DF3D236E390C007ED103 /* EldyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE0DF4D236E390C007ED103 /* Build configuration list for PBXNativeTarget "EldyUITests" */;
+			buildPhases = (
+				8CE0DF3A236E390C007ED103 /* Sources */,
+				8CE0DF3B236E390C007ED103 /* Frameworks */,
+				8CE0DF3C236E390C007ED103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CE0DF40236E390C007ED103 /* PBXTargetDependency */,
+			);
+			name = EldyUITests;
+			productName = EldyUITests;
+			productReference = 8CE0DF3E236E390C007ED103 /* EldyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CE0DF15236E3908007ED103 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Dee Gao";
+				TargetAttributes = {
+					8CE0DF1C236E3908007ED103 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					8CE0DF32236E390C007ED103 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 8CE0DF1C236E3908007ED103;
+					};
+					8CE0DF3D236E390C007ED103 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 8CE0DF1C236E3908007ED103;
+					};
+				};
+			};
+			buildConfigurationList = 8CE0DF18236E3908007ED103 /* Build configuration list for PBXProject "Eldy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CE0DF14236E3908007ED103;
+			productRefGroup = 8CE0DF1E236E3908007ED103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE0DF1C236E3908007ED103 /* Eldy */,
+				8CE0DF32236E390C007ED103 /* EldyTests */,
+				8CE0DF3D236E390C007ED103 /* EldyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CE0DF1B236E3908007ED103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE0DF2D236E390C007ED103 /* LaunchScreen.storyboard in Resources */,
+				8CE0DF2A236E390C007ED103 /* Assets.xcassets in Resources */,
+				8CE0DF28236E3908007ED103 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE0DF31236E390C007ED103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE0DF3C236E390C007ED103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CE0DF19236E3908007ED103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE0DF25236E3908007ED103 /* ViewController.swift in Sources */,
+				8CE0DF21236E3908007ED103 /* AppDelegate.swift in Sources */,
+				8CE0DF23236E3908007ED103 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE0DF2F236E390C007ED103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE0DF38236E390C007ED103 /* EldyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE0DF3A236E390C007ED103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE0DF43236E390C007ED103 /* EldyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CE0DF35236E390C007ED103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CE0DF1C236E3908007ED103 /* Eldy */;
+			targetProxy = 8CE0DF34236E390C007ED103 /* PBXContainerItemProxy */;
+		};
+		8CE0DF40236E390C007ED103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CE0DF1C236E3908007ED103 /* Eldy */;
+			targetProxy = 8CE0DF3F236E390C007ED103 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CE0DF26236E3908007ED103 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE0DF27236E3908007ED103 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CE0DF2B236E390C007ED103 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE0DF2C236E390C007ED103 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CE0DF45236E390C007ED103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CE0DF46236E390C007ED103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CE0DF48236E390C007ED103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Eldy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubhacking.Eldy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CE0DF49236E390C007ED103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Eldy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubhacking.Eldy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CE0DF4B236E390C007ED103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EldyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubhacking.EldyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eldy.app/Eldy";
+			};
+			name = Debug;
+		};
+		8CE0DF4C236E390C007ED103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EldyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubhacking.EldyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eldy.app/Eldy";
+			};
+			name = Release;
+		};
+		8CE0DF4E236E390C007ED103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EldyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubhacking.EldyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eldy;
+			};
+			name = Debug;
+		};
+		8CE0DF4F236E390C007ED103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EldyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubhacking.EldyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eldy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CE0DF18236E3908007ED103 /* Build configuration list for PBXProject "Eldy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE0DF45236E390C007ED103 /* Debug */,
+				8CE0DF46236E390C007ED103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE0DF47236E390C007ED103 /* Build configuration list for PBXNativeTarget "Eldy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE0DF48236E390C007ED103 /* Debug */,
+				8CE0DF49236E390C007ED103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE0DF4A236E390C007ED103 /* Build configuration list for PBXNativeTarget "EldyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE0DF4B236E390C007ED103 /* Debug */,
+				8CE0DF4C236E390C007ED103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE0DF4D236E390C007ED103 /* Build configuration list for PBXNativeTarget "EldyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE0DF4E236E390C007ED103 /* Debug */,
+				8CE0DF4F236E390C007ED103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CE0DF15236E3908007ED103 /* Project object */;
+}
