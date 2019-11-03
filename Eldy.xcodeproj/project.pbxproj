@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2F99A1236E645E00777492 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F99A0236E645E00777492 /* RegisterViewController.swift */; };
+		8C2F99A3236E647200777492 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F99A2236E647200777492 /* LoginViewController.swift */; };
+		8C2F99A6236E6CC800777492 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F99A5236E6CC800777492 /* HomeViewController.swift */; };
+		8CC76714236E8CED00787DC2 /* old.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CC76713236E8CED00787DC2 /* old.png */; };
+		8CC76718236E900800787DC2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CC76717236E900800787DC2 /* icon.png */; };
+		8CC7671B236EACE000787DC2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7671A236EACDF00787DC2 /* Constants.swift */; };
+		8CC7671D236EB5B200787DC2 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC7671C236EB5B100787DC2 /* background.jpg */; };
 		8CE0DF21236E3908007ED103 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0DF20236E3908007ED103 /* AppDelegate.swift */; };
 		8CE0DF23236E3908007ED103 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0DF22236E3908007ED103 /* SceneDelegate.swift */; };
 		8CE0DF25236E3908007ED103 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0DF24236E3908007ED103 /* ViewController.swift */; };
@@ -15,6 +22,10 @@
 		8CE0DF2D236E390C007ED103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE0DF2B236E390C007ED103 /* LaunchScreen.storyboard */; };
 		8CE0DF38236E390C007ED103 /* EldyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0DF37236E390C007ED103 /* EldyTests.swift */; };
 		8CE0DF43236E390C007ED103 /* EldyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0DF42236E390C007ED103 /* EldyUITests.swift */; };
+		8CE0DF55236E55B6007ED103 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CE0DF54236E55B6007ED103 /* GoogleService-Info.plist */; };
+		D46C5097A6DEE36E35867973 /* Pods_EldyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A1D80C3297E2F2450C00A8 /* Pods_EldyTests.framework */; };
+		F3AB89487601C791B007DECE /* Pods_Eldy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2DDA0AD7B2DE2FF9EA0B66 /* Pods_Eldy.framework */; };
+		F4AE428EE515C57F8A24F4B1 /* Pods_Eldy_EldyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D54E4A83521C46F3C29E398 /* Pods_Eldy_EldyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2601283BDEC153B6B288CA78 /* Pods-EldyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EldyTests.release.xcconfig"; path = "Target Support Files/Pods-EldyTests/Pods-EldyTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D54E4A83521C46F3C29E398 /* Pods_Eldy_EldyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eldy_EldyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2F99A0236E645E00777492 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8C2F99A2236E647200777492 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = /Users/deegao/Desktop/Eldy/Eldy/LoginViewController.swift; sourceTree = "<absolute>"; };
+		8C2F99A5236E6CC800777492 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8CC76713236E8CED00787DC2 /* old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = old.png; path = ../../../Downloads/old.png; sourceTree = "<group>"; };
+		8CC76717236E900800787DC2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../Downloads/icon.png; sourceTree = "<group>"; };
+		8CC7671A236EACDF00787DC2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8CC7671C236EB5B100787DC2 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../Downloads/background.jpg; sourceTree = "<group>"; };
 		8CE0DF1D236E3908007ED103 /* Eldy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eldy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE0DF20236E3908007ED103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CE0DF22236E3908007ED103 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +69,14 @@
 		8CE0DF3E236E390C007ED103 /* EldyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EldyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE0DF42236E390C007ED103 /* EldyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EldyUITests.swift; sourceTree = "<group>"; };
 		8CE0DF44236E390C007ED103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE0DF54236E55B6007ED103 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		95C18A1A37C4013344478E65 /* Pods-Eldy-EldyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eldy-EldyUITests.release.xcconfig"; path = "Target Support Files/Pods-Eldy-EldyUITests/Pods-Eldy-EldyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A43B82EA7906A525997CD476 /* Pods-EldyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EldyTests.debug.xcconfig"; path = "Target Support Files/Pods-EldyTests/Pods-EldyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5D014276E1F6A8BE2E5B79E /* Pods-Eldy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eldy.release.xcconfig"; path = "Target Support Files/Pods-Eldy/Pods-Eldy.release.xcconfig"; sourceTree = "<group>"; };
+		C8A1D80C3297E2F2450C00A8 /* Pods_EldyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EldyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2DDA0AD7B2DE2FF9EA0B66 /* Pods_Eldy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eldy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDCEEFA12019E98B18FA428 /* Pods-Eldy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eldy.debug.xcconfig"; path = "Target Support Files/Pods-Eldy/Pods-Eldy.debug.xcconfig"; sourceTree = "<group>"; };
+		F71BFF0393A583E52F34BD42 /* Pods-Eldy-EldyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eldy-EldyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Eldy-EldyUITests/Pods-Eldy-EldyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3AB89487601C791B007DECE /* Pods_Eldy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46C5097A6DEE36E35867973 /* Pods_EldyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4AE428EE515C57F8A24F4B1 /* Pods_Eldy_EldyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C2F99A4236E648C00777492 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C2F99A2236E647200777492 /* LoginViewController.swift */,
+				8C2F99A0236E645E00777492 /* RegisterViewController.swift */,
+				8C2F99A5236E6CC800777492 /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8CC76719236EACCA00787DC2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8CC7671A236EACDF00787DC2 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		8CE0DF14236E3908007ED103 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +132,8 @@
 				8CE0DF36236E390C007ED103 /* EldyTests */,
 				8CE0DF41236E390C007ED103 /* EldyUITests */,
 				8CE0DF1E236E3908007ED103 /* Products */,
+				9BB2D93DA315B92360257578 /* Pods */,
+				D0CAD78621DEBC8E7426DC9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +150,19 @@
 		8CE0DF1F236E3908007ED103 /* Eldy */ = {
 			isa = PBXGroup;
 			children = (
+				8CC76719236EACCA00787DC2 /* Helpers */,
+				8C2F99A4236E648C00777492 /* View Controllers */,
 				8CE0DF20236E3908007ED103 /* AppDelegate.swift */,
 				8CE0DF22236E3908007ED103 /* SceneDelegate.swift */,
 				8CE0DF24236E3908007ED103 /* ViewController.swift */,
 				8CE0DF26236E3908007ED103 /* Main.storyboard */,
 				8CE0DF29236E390C007ED103 /* Assets.xcassets */,
+				8CC7671C236EB5B100787DC2 /* background.jpg */,
+				8CC76713236E8CED00787DC2 /* old.png */,
 				8CE0DF2B236E390C007ED103 /* LaunchScreen.storyboard */,
+				8CE0DF54236E55B6007ED103 /* GoogleService-Info.plist */,
 				8CE0DF2E236E390C007ED103 /* Info.plist */,
+				8CC76717236E900800787DC2 /* icon.png */,
 			);
 			path = Eldy;
 			sourceTree = "<group>";
@@ -128,6 +185,29 @@
 			path = EldyUITests;
 			sourceTree = "<group>";
 		};
+		9BB2D93DA315B92360257578 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFDCEEFA12019E98B18FA428 /* Pods-Eldy.debug.xcconfig */,
+				C5D014276E1F6A8BE2E5B79E /* Pods-Eldy.release.xcconfig */,
+				F71BFF0393A583E52F34BD42 /* Pods-Eldy-EldyUITests.debug.xcconfig */,
+				95C18A1A37C4013344478E65 /* Pods-Eldy-EldyUITests.release.xcconfig */,
+				A43B82EA7906A525997CD476 /* Pods-EldyTests.debug.xcconfig */,
+				2601283BDEC153B6B288CA78 /* Pods-EldyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0CAD78621DEBC8E7426DC9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2DDA0AD7B2DE2FF9EA0B66 /* Pods_Eldy.framework */,
+				4D54E4A83521C46F3C29E398 /* Pods_Eldy_EldyUITests.framework */,
+				C8A1D80C3297E2F2450C00A8 /* Pods_EldyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CE0DF47236E390C007ED103 /* Build configuration list for PBXNativeTarget "Eldy" */;
 			buildPhases = (
+				FB37FC0C2CAB0307F9D5140B /* [CP] Check Pods Manifest.lock */,
 				8CE0DF19236E3908007ED103 /* Sources */,
 				8CE0DF1A236E3908007ED103 /* Frameworks */,
 				8CE0DF1B236E3908007ED103 /* Resources */,
+				3E5E9CAD5C1E16112971B122 /* [CP] Embed Pods Frameworks */,
+				0A612AA12D6F30EDC4284711 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CE0DF4A236E390C007ED103 /* Build configuration list for PBXNativeTarget "EldyTests" */;
 			buildPhases = (
+				9D818D830F0E575C1DF8F958 /* [CP] Check Pods Manifest.lock */,
 				8CE0DF2F236E390C007ED103 /* Sources */,
 				8CE0DF30236E390C007ED103 /* Frameworks */,
 				8CE0DF31236E390C007ED103 /* Resources */,
@@ -170,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CE0DF4D236E390C007ED103 /* Build configuration list for PBXNativeTarget "EldyUITests" */;
 			buildPhases = (
+				9F2E406E93674576055FE1FC /* [CP] Check Pods Manifest.lock */,
 				8CE0DF3A236E390C007ED103 /* Sources */,
 				8CE0DF3B236E390C007ED103 /* Frameworks */,
 				8CE0DF3C236E390C007ED103 /* Resources */,
+				AB5C35FE63F83C2DD8BD5AE1 /* [CP] Embed Pods Frameworks */,
+				3CDC08DFC55CC1BFC451D012 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +320,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CE0DF2D236E390C007ED103 /* LaunchScreen.storyboard in Resources */,
+				8CE0DF55236E55B6007ED103 /* GoogleService-Info.plist in Resources */,
+				8CC7671D236EB5B200787DC2 /* background.jpg in Resources */,
+				8CC76718236E900800787DC2 /* icon.png in Resources */,
+				8CC76714236E8CED00787DC2 /* old.png in Resources */,
 				8CE0DF2A236E390C007ED103 /* Assets.xcassets in Resources */,
 				8CE0DF28236E3908007ED103 /* Main.storyboard in Resources */,
 			);
@@ -254,6 +345,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A612AA12D6F30EDC4284711 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eldy/Pods-Eldy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eldy/Pods-Eldy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eldy/Pods-Eldy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CDC08DFC55CC1BFC451D012 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eldy-EldyUITests/Pods-Eldy-EldyUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eldy-EldyUITests/Pods-Eldy-EldyUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eldy-EldyUITests/Pods-Eldy-EldyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E5E9CAD5C1E16112971B122 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eldy/Pods-Eldy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eldy/Pods-Eldy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eldy/Pods-Eldy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D818D830F0E575C1DF8F958 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EldyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F2E406E93674576055FE1FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eldy-EldyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5C35FE63F83C2DD8BD5AE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eldy-EldyUITests/Pods-Eldy-EldyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eldy-EldyUITests/Pods-Eldy-EldyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eldy-EldyUITests/Pods-Eldy-EldyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB37FC0C2CAB0307F9D5140B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eldy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8CE0DF19236E3908007ED103 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -262,6 +490,10 @@
 				8CE0DF25236E3908007ED103 /* ViewController.swift in Sources */,
 				8CE0DF21236E3908007ED103 /* AppDelegate.swift in Sources */,
 				8CE0DF23236E3908007ED103 /* SceneDelegate.swift in Sources */,
+				8C2F99A3236E647200777492 /* LoginViewController.swift in Sources */,
+				8CC7671B236EACE000787DC2 /* Constants.swift in Sources */,
+				8C2F99A1236E645E00777492 /* RegisterViewController.swift in Sources */,
+				8C2F99A6236E6CC800777492 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +664,7 @@
 		};
 		8CE0DF48236E390C007ED103 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDCEEFA12019E98B18FA428 /* Pods-Eldy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +682,7 @@
 		};
 		8CE0DF49236E390C007ED103 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D014276E1F6A8BE2E5B79E /* Pods-Eldy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +700,7 @@
 		};
 		8CE0DF4B236E390C007ED103 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43B82EA7906A525997CD476 /* Pods-EldyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +722,7 @@
 		};
 		8CE0DF4C236E390C007ED103 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2601283BDEC153B6B288CA78 /* Pods-EldyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +744,7 @@
 		};
 		8CE0DF4E236E390C007ED103 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71BFF0393A583E52F34BD42 /* Pods-Eldy-EldyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +764,7 @@
 		};
 		8CE0DF4F236E390C007ED103 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C18A1A37C4013344478E65 /* Pods-Eldy-EldyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
